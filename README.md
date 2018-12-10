@@ -1,4 +1,4 @@
-# Scrape any HWZ post!
+# Scrape any HWZ forum thread!
 
 Simply input any valid HWZ forum thread into the CLI tool and you will get back a CSV file containing:
 - username
