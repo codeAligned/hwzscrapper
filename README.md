@@ -7,13 +7,14 @@ Simply input any valid HWZ forum thread into the CLI tool and you will get back 
 - sentiment subjectivity
 - sentiment polarity
 
-## Requirements
+### Requirements
 1. Python 3.x
-2. python in PATH
 
-## How to use
+### How to use
 
-Type the following into your command-line (e.g. bash,cmd)
+1. `git clone https://github.com/jaabberwocky/hwzscrapper.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Use it! `python hwzscrape.py <url>`
 
 ### Example
 This is the thread we want to scrape.
