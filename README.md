@@ -16,11 +16,15 @@ Simply input any valid HWZ forum thread into the CLI tool and you will get back 
 Type the following into your command-line (e.g. bash,cmd)
 
 ### Example
-```bash
-python hwzscrape.py "https://forums.hardwarezone.com.sg/eat-drink-man-woman-16/shocking-guardian-tampines-mart-closed-shop-5861249.html"
 ```
+python hwzscrape.py 'https://forums.hardwarezone.com.sg/eat-drink-man-woman-16/what-wrong-my-bf-teo-kb-he-only-likes-women-big-boops-sluts-5952396.html'
+```
+![command-line](https://s3-ap-southeast-1.amazonaws.com/tobiasleong/Screenshot+2018-12-10+at+23.43.20.png)
+
+Contents of CSV:
+![csv-file](https://s3-ap-southeast-1.amazonaws.com/tobiasleong/Screenshot+2018-12-10+at+23.43.05.png)
 
 Find more options by typing
 ```bash
-python hwz_scrape.py --help
+python hwzscrape.py --help
 ```
