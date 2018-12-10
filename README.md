@@ -27,7 +27,7 @@ python hwzscrape.py 'https://forums.hardwarezone.com.sg/eat-drink-man-woman-16/d
 ![command-line](https://s3-ap-southeast-1.amazonaws.com/tobiasleong/commandline.png)
 
 Contents of CSV:
-![csv-file](https://s3-ap-southeast-1.amazonaws.com/tobiasleong/Screenshot+2018-12-10+at+23.43.05.png)
+![csv-file](https://s3-ap-southeast-1.amazonaws.com/tobiasleong/csv.png)
 
 Find more options by typing
 ```bash

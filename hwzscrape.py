@@ -124,14 +124,9 @@ if __name__ == "__main__":
 		url_loop = my_url.split(".html")[0] + '-' + str(pg) + ".html"
 		pg += 1
 
-		# open connection
 		page_html = getPageHTML(url_loop)
-
-		# parse html using soup
 		page_soup = getPageSoup(page_html)
 
-		# get posts
-		# all posts in HWZ are under this div class
 		posts = getPosts(page_soup)
 
 		for post in posts:
@@ -143,7 +138,7 @@ if __name__ == "__main__":
 			# get sentiment polarity and subj
 			sentiment_polarity, sentiment_subj = TextBlob(post_content).sentiment
 
-			# append into lists
+			# append into lists, this will be used later to form the dataframe
 			username_list.append(username)
 			content_list.append(post_content)
 			sentiment_polarity_list.append(sentiment_polarity)
@@ -152,7 +147,6 @@ if __name__ == "__main__":
 
 			print("Scrapped %s post. Post: %d" % (username, count))
 
-	# create dataframe
 	df = pd.DataFrame({
 		'datetime': datetime_list,
 		'username': username_list,
