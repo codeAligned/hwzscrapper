@@ -125,7 +125,7 @@ if __name__ == "__main__":
 		pg += 1
 
 		# open connection
-		page_html = getPageHTML(my_url)
+		page_html = getPageHTML(url_loop)
 
 		# parse html using soup
 		page_soup = getPageSoup(page_html)
